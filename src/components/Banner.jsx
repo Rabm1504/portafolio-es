@@ -57,12 +57,12 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                  <h1>{`Hi! I'm Renny Belandria`} <br></br> </h1>
+                  <h1>{`¡Hola! Soy Renny Belandria`} <br></br> </h1>
                   <h4><span className="txt-rotate" dataperiod="1000" data-rotate='[ "Web Developer", "Web Designer", "Full-Stack" ]'><span className="wrap">{text}</span></span></h4>
-                  <p>I am a cheerful, responsible, and proactive person. I'm studying in the Full-Stack Development Bootcamp at Prográmate-Academy powered by EducaMás, GOYN & Simplon partnership program. Through these experiences, I have learned Web Development with the MERN Stack.</p>
+                  <p>Estoy estudiando en el Full-Stack Development Bootcamp en Prográmate-Academy powered by EducaMás, GOYN & Simplon partnership program. He aprendido Desarrollo Web con el Stack MERN.</p>
                   <Router>
                     <HashLink to="#bio" style={{ textDecoration: "none" }}>
-                      <button onClick={() => console.log('connect')}>Let’s go ahead! <ArrowRightCircle size={25} /></button>
+                      <button onClick={() => console.log('connect')}>¡Vamos! <ArrowRightCircle size={25} /></button>
                     </HashLink>
                   </Router>
                 </div>}
@@ -79,4 +79,5 @@ export const Banner = () => {
       </Container>
     </section>
   )
+  
 }

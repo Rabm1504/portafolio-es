@@ -10,10 +10,10 @@ export const ProjectCard = ({ title, description, imgUrl, github, deploy }) => {
           <span>{description}</span>
           <span className="proj-but-span">
             <button className="proj-button">
-              <a href={deploy} target="_blank">Deploy</a>
+              <a href={deploy} target="_blank">Despliegue</a>
             </button>
             <button className="proj-button">
-              <a href={github} target="_blank">Structure</a>
+              <a href={github} target="_blank">Estructura</a>
             </button>
           </span>
         </div>

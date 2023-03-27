@@ -48,8 +48,8 @@ export const Projects = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
-                <h2>Projects</h2>
-                  <p>The projects I have done range from the development of Landing Pages, games with a simple interface, static web pages, dynamic web pages, portfolios and simple electronic commerce linked to the WhatsApp API. </p>
+                <h2>Projectos</h2>
+                  <p>Los proyectos que he realizado van desde el desarrollo de Landing Pages, juegos con una interfaz sencilla, páginas web estáticas, páginas web dinámicas, portfolios y comercio electrónico sencillo vinculado a la API de WhatsApp. </p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>

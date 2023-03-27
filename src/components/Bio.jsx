@@ -52,10 +52,11 @@ export const Bio = () => {
                       <TrackVisibility>
                         {({ isVisible }) =>
                           <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                            <p>Full-stack developer with intermediate English level. Interest in web development, sustainability, finance and data science. Projects carried out in the design and development of e-commerce and user management pages and project management interfaces. Management of the MERN Stack (Mongo, Express, React and Node) as well as SQL and Responsive Design with CSS, Material UI, Bootstrap and Tailwind.
+                            <p>Desarrollador full-stack con nivel intermedio de inglés, especializado en el stack MERN (MongoDB, Express.js, React, y Node.js) y familiarizado con la metodología SCRUM. Mi foco principal es el desarrollo de aplicaciones web robustas y escalables. Puedo trabajar tanto en el lado del cliente como del servidor, utilizando lenguajes como JavaScript para crear una experiencia de usuario fluida y dinámica. Tengo experiencia creando APIs RESTful y he trabajado con bases de datos relacionales y no relacionales. 
                               <br></br>
-                              <br></br> I graduated from the Full-Stack Developer Bootcamp at Prográmate-Academy powered by EducaMás, GOYN & Simplon partnership program.</p>
-                            <a href="https://www.canva.com/design/" target="_blank" style={{ color: "white" }}><button style={{ color: "white" }} className="cv_arrow">Get my CV in Spanish  <ArrowRightCircle size={25} style={{ color: "white" }} /></button></a>
+                              <br></br> 
+                              Tengo una fuerte ética de trabajo y soy un solucionador de problemas creativo y encuentro soluciones innovadoras a los desafíos técnicos. Manejo el MERN Stack (Mongo, Express, React y Node) así como SQL y Responsive Design con CSS, Material UI, Bootstrap y Tailwind.</p>
+                            <a href="https://www.canva.com/design/" target="_blank" style={{ color: "white" }}><button style={{ color: "white" }} className="cv_arrow">Obtenga mi CV  <ArrowRightCircle size={25} style={{ color: "white" }} /></button></a>
                           </div>}
                       </TrackVisibility>
                     </Col>

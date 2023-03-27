@@ -45,11 +45,10 @@ export const Contact = () => {
   };
 
   const mensaje = `
-  Hi my name is ${formDetails.firstName} ${formDetails.lastName}, my phone is ${formDetails.phone}, my email is ${formDetails.email} and I would like to connect with you.
+  Hola, mi nombre es ${formDetails.firstName} ${formDetails.lastName}, mi celular es ${formDetails.phone}, mi email es ${formDetails.email} y me gustaría ponerme en contacto contigo.
+  Además, ${formDetails.message}
 
-  Also, ${formDetails.message}
-
-  Thank you for your time!
+  ¡Gracias por su tiempo!
   `
 
   const url = `https://api.whatsapp.com/send?phone=573244620334&text=${encodeURIComponent(mensaje)}`;
@@ -93,7 +92,7 @@ export const Contact = () => {
                         </Col>
                         <Col size={12} className="px-1">
                           <textarea rows="6" value={formDetails.message} placeholder="Message" onChange={(e) => onFormUpdate('message', e.target.value)}></textarea>
-                          <button onClick={handleClick}><span>Send through WhatsApp</span></button>
+                          <button onClick={handleClick}><span>Enviar a través de WhatsApp</span></button>
                         </Col>
                         {
                           status.message &&
